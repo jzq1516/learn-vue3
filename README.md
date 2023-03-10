@@ -1,4 +1,4 @@
-### setup
+# setup
 ```
   1. 理解：Vue3中一个新配置项，值为一个函数。
   2. setup是所有Composition API（组合API）“表演的舞台”。
