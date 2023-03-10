@@ -1,5 +1,4 @@
 # setup
-```
   1. 理解：Vue3中一个新配置项，值为一个函数。
   2. setup是所有Composition API（组合API）“表演的舞台”。
   3. 组件中所有用到的：数据、方法等等，均是配置子啊setup中。
@@ -12,7 +11,6 @@
       ② 但在setup中不能访问到Vue2.x配置（data、methods、computed...）.
       ③ 如果有重名，setup优先。
     (2). setup不能是一个async函数，因为返回值不再是return的对象，而是promise，模板看不到return对象中的属性。
-```
 # ref函数
 
   1. 作用：定义一个响应式的数据
