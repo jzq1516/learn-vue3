@@ -16,12 +16,12 @@
 # ref函数
 ```
   1. 作用：定义一个响应式的数据
-  2. 语法：`const xxx = ref(initValue)`
+  2. 语法：const xxx = ref(initValue)
     (1). 创建一个包含响应式数据的引用对象（reference对象，简称ref对象）。
-    (2). JS中操作数据：`xxx.value`
-    (3). 模板中读取数据：不需要.value，直接：`<div>{{xxx}}</div>`
+    (2). JS中操作数据：xxx.value
+    (3). 模板中读取数据：不需要.value，直接：<div>{{xxx}}</div>
   3. 备注：
     (1). 接收的数据可以是：基本类型、也可以是对象类型。
-    (2). 基本类型的数据：响应式依然是靠`Object.defineProperty()`的`get`与`set`完成的。
+    (2). 基本类型的数据：响应式依然是靠Object.defineProperty()的get与set完成的。
     (3). 对象类型的数据：内部“求助”了Vue3.0中的一个新函数————`reactive`函数
 ```
